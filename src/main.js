@@ -24,9 +24,9 @@ const router = createRouter({
 });
 
 const eventbus = mitt();
-const x = new API();
+const api = new API();
 
 const app = createApp(App).use(router);
 app.provide('eventbus', eventbus);
-app.provide('api', x);
+app.provide('api', api);
 app.mount('#app');
