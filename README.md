@@ -6,7 +6,7 @@ A simple Vue 3 sample application.
  - Vue3 Single File Components
  - vue-router for routing
  - UIKit css framework
- - using mitt.js for eventbus to inter-component eventing
+ - using mitt.js as an eventbus for inter-component eventing
  - Vuelidate form validation
  - using the newer Vue Composition API with &lt;script setup\>
  - mock api
